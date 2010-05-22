@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 package Dist::Zilla::Plugin::MinimumVersionTests;
-# ABSTRACT: release tests for minimum required versions
+# ABSTRACT: Release tests for minimum required versions
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 
@@ -26,7 +26,7 @@ In C<dist.ini>:
 =head1 DESCRIPTION
 
 This is an extension of L<Dist::Zilla::Plugin::InlineFiles>, providing the
-following files
+following file:
 
   xt/release/minimum-version.t - a standard Test::MinimumVersion test
 
